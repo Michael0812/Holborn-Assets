@@ -1,0 +1,20 @@
+body{
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+/*Navbar*/
+.navbar{
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.nav-link,
+.navbar-brand,
+.navbar-toggler-icon{
+    color: darkgray !important;
+    margin: 10px !important;
+}
+.nav-link:hover{
+    color: #080808 !important;
+}
