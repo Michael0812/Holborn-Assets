@@ -18,3 +18,12 @@ body{
 .nav-link:hover{
     color: #080808 !important;
 }
+.btn{
+    background-color: #023660;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #3B6283;
+}
+
+/*Header*/
