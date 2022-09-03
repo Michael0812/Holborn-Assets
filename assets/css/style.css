@@ -4,6 +4,15 @@ body{
     width: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+    color: #fff;
+}
+
 /*Navbar*/
 .navbar{
     width: 100%;
@@ -27,3 +36,12 @@ body{
 }
 
 /*Header*/
+  .header-image{
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).webp");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+  }
