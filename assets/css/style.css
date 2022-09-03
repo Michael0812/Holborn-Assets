@@ -11,15 +11,22 @@ body{
     overflow-x: hidden;
 
 }
-
+p{
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
 
 h1,
 h2,
 h3,
 h4,
 h5,
-p{
+p,
+li{
     color: #fff;
+}
+li{
+    line-height: 2.5rem;
 }
 
 /*Navbar*/
@@ -58,7 +65,7 @@ p{
   }
   .col-header-image,
   .col-mission-image{
-    max-width: 80%;
+    max-width: 100%;
   }
 
   /*Our Mission*/
@@ -69,3 +76,15 @@ p{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,33,160,1) 100%);
   }
+  .fa-sharp{
+    margin-right: 10px;
+  }
+  li{
+    
+    padding: 0;
+  }
+  ul, ol { 
+    padding:0; 
+    margin: 0;
+    list-style-type: none;
+}
