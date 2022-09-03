@@ -56,4 +56,7 @@ p{
     background-size: 100% auto;
     background-attachment: fixed;
   }
+  .col-header-image{
+    max-width: 80%;
+  }
   5821a0
