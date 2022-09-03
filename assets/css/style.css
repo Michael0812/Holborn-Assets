@@ -1,8 +1,17 @@
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0 auto;
     scroll-behavior: smooth;
     width: 100%;
+    overflow-x: hidden;
+
 }
+
 
 h1,
 h2,
@@ -16,7 +25,7 @@ p{
 /*Navbar*/
 .navbar{
     width: 100%;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    position: absolute;
 }
 .nav-link,
 .navbar-brand,
@@ -28,20 +37,23 @@ p{
     color: #080808 !important;
 }
 .btn{
-    background-color: #023660;
+    background-color: #f89b0a;
     color: #fff;
+    border-radius: 50px;;
 }
 .btn:hover{
-    background-color: #3B6283;
+    background-color: #5821a0;
 }
 
 /*Header*/
   .header-image{
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).webp");
-    height: 100%;
+    background-image: url("/assets/img/14658088_5509862.jpg");
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 100vh;
     background-size: cover;
-    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    background-attachment: fixed;
   }
+  5821a0
