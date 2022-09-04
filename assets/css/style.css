@@ -146,3 +146,18 @@ color: #00f9a7;
 .tokens{
     background-image: radial-gradient(at center bottom, rgb(72, 34, 122), rgb(17, 15, 36));
 }
+
+
+.chart{
+    vertical-align: middle;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+  
+  }
+
+  
+  canvas{
+    height: 100%;
+  }
