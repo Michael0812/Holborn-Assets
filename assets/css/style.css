@@ -380,9 +380,10 @@ textarea {
 .footer-social-icon{
     font-size: 1.5rem;
     margin-bottom: 20px;
+    color: #fff;
 }
 .footer-social-icon:hover{
-    color: #fff;
+    color: #f89b0a;
     cursor: pointer;
 }
 .footer-subheading{
