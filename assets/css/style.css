@@ -11,6 +11,12 @@ body{
     overflow-x: hidden;
 
 }
+a{
+    color #fff;
+}
+a:hover{
+    color: #fff;
+}
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -26,6 +32,14 @@ body{
     background: #5821a0; 
     border-radius: 10px;
   }
+
+  input:focus {
+    outline:none !important;
+}
+  input:hover {
+    outline:none !important;
+}
+
 
 p{
     font-size: 1.1rem;
@@ -372,10 +386,12 @@ margin-bottom: 30px;
 
 .footer-link{
     color: #fff;;
+    text-decoration: none;
 }
 .footer-link:hover{
     color: #f89b0a;
     cursor: pointer;
+   text-decoration: none;
 }
 
 
