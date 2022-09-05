@@ -66,6 +66,11 @@ h6{
     padding-bottom: 1rem;
     line-height: 3rem;
 }
+
+a{
+    color: #9a9a9a;;
+}
+
 h1{
     line-height: 3.3rem;
 }
@@ -232,9 +237,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 
 }
-.contact_info_item:hover{
-    border-radius: 20px;
-}
+
 .contact_info_image
 {
     width: 35px;
@@ -321,7 +324,6 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 {
     padding-left: 35px;
     padding-right: 35px;
-    color: red;
     font-size: 18px;
     border: none;
     outline: none;
@@ -345,6 +347,36 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 textarea {
     resize: none;
   }
+
+
+  /*Footer*/
+
+
+.footer-wrapper{
+    background: linear-gradient(rgb(19, 10, 42) 0%, rgb(28, 11, 71) 100%);
+
+}
+
+.footer-social-icon{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.footer-social-icon:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.footer-subheading{
+    font-size: 1.3rem;
+margin-bottom: 30px;
+}
+
+.footer-link{
+    color: #fff;;
+}
+.footer-link:hover{
+    color: #f89b0a;
+    cursor: pointer;
+}
 
 
 @media only screen and (max-width: 991px)
