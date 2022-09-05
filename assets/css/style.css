@@ -33,11 +33,17 @@ a:hover{
     border-radius: 10px;
   }
 
-  input:focus {
-    outline:none !important;
+.btn:hover{
+    border: none !important;
 }
-  input:hover {
-    outline:none !important;
+.btn:focus{
+    border: none !important;
+}
+btn:visited{
+    outline: none !important;
+}
+a:visited{
+    outline: none !important;
 }
 
 
