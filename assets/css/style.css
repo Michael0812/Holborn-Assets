@@ -11,6 +11,22 @@ body{
     overflow-x: hidden;
 
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+   background-color:black;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5821a0; 
+    border-radius: 10px;
+  }
+
 p{
     font-size: 1.1rem;
     font-weight: lighter;
@@ -326,15 +342,9 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
-
-
-
-
-
-
-
-
-
+textarea {
+    resize: none;
+  }
 
 
 @media only screen and (max-width: 991px)
