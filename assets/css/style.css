@@ -38,13 +38,13 @@ a:hover {
   padding-bottom: 13px;
   font-size: 1.1rem;
 }
-.btn:hover {
+a:hover {
     border: none !important;
 }
-.btn:focus {
+a:focus {
     border: none !important;
 }
-.btn:visited {
+a:visited {
     outline: none !important;
 }
 a:visited {
@@ -135,9 +135,11 @@ li {
     background-color: #f89b0a;
     color: #fff;
     border-radius: 50px;
+    border: none;
 }
 .btn:hover {
     background-color: #5821a0;
+    border: none;
 }
 
 /*Header*/
