@@ -387,9 +387,12 @@ textarea {
     margin-bottom: 30px;
 }
 
-.footer-link {
+.footer-link,
+.footer-address {
     color: #fff;
     text-decoration: none;
+    font-weight: 200;
+    font-size: 1rem;
 }
 .footer-link:hover {
     color: #f89b0a;
