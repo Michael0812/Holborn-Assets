@@ -390,15 +390,48 @@ textarea {
     cursor: pointer;
     text-decoration: none;
 }
+/*Media Query*/
+
+
 
 @media only screen and (max-width: 991px) {
-
+    .h1, .card-text{
+        text-align: center;
+    }
+    .the-inner{
+        padding-top: 5rem;
+    }
+    .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .btn{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .col-header-image{
+        margin-top: 3rem;
+    }
+    .services-text{
+        width: 100%;
+    }
     .contact_info_item {
         width: 100%;
         margin-bottom: 30px;
+
     }
     .contact_info_item:last-child {
         margin-bottom: 0;
+    }
+    .testimonials-col{
+        margin-top: 3rem;
+    }
+    .contact-title{
+        margin-top: 5rem;
     }
 }
 
