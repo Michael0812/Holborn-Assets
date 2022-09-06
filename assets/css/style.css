@@ -440,6 +440,10 @@ textarea {
     .testimonials-col{
         margin-top: 3rem;
     }
+    .btn-lg{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
 }
 
