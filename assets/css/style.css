@@ -117,6 +117,7 @@ li{
 .navbar{
     width: 100%;
     position: absolute;
+    z-index: 99;
 }
 .nav-link,
 .navbar-brand,
@@ -137,21 +138,23 @@ li{
 }
 
 /*Header*/
-  .header-image{
-    background-image: url("/assets/img/14658088_5509862.jpg");
-    width: 100%;
+#thehero {
+    width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/assets/img/14658088_5509862.jpg");
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% auto;
     background-attachment: fixed;
-  }
-  .col-header-image,
-  .col-mission-image{
-    max-width: 100%;
-  }
-
+}
+.header-col{
+    align-self: center;
+}
   /*Our Mission*/
   .our-mission{
     width: 100%;
