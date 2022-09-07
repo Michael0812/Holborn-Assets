@@ -56,8 +56,11 @@ p {
     padding-bottom: 100px;
 }
 .container-fluid {
-    padding-top: 100px;
-    margin-bottom: -50px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.container-form{
+    padding-bottom: 00px !important;
 }
 .contact-link,
 h1,
@@ -238,6 +241,9 @@ ul {
     background-image: radial-gradient(at center bottom, rgb(72, 34, 122), rgb(17, 15, 36));
 }
 
+.pie-chart{
+    align-self: center;
+}
 .chart {
     vertical-align: middle;
     width: 100%;
