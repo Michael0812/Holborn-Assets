@@ -108,6 +108,11 @@ li {
     width: 60%;
     margin: auto;
 }
+.hideme{
+    opacity: 0;
+}
+
+
 /*Navbar*/
 .logo {
     width: 60px;
@@ -444,7 +449,9 @@ textarea {
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
+    .footer-wrapper{
+        text-align: center;    
+    }
 }
 
 @media only screen and (max-width: 767px) {
